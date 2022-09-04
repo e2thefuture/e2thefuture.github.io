@@ -8,7 +8,7 @@ plugins:
   - jekyll-include-cache
 minimal_mistakes_skin: dark
 
-title: Engineering 2 The Future
+title: &name "Engineering 2 The Future" # &name is a YAML anchor
 email: e2thefuture@gmail.com
 github_username: e2thefuture
 logo: /logo.png
@@ -47,3 +47,32 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Site Author
+author:
+  name             : *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar           : "/logo.png"
+  bio              : "Engineering 2 the Future is a student-led club dedicated to providing free classes and seminars, allowing youth to learn and explore the world of Engineering. Our teachers encourage students to focus on not only the concepts but also applications of Engineering and help them to become creative and skilled members of society."
+#  location         : ""
+  links:
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/bGAzdPUd8M"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/e2thefuture"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
+
+footer:
+  links:
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/bGAzdPUd8M"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/e2thefuture"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
