@@ -12,3 +12,8 @@ title: Engineering 2 The Future
 email: e2thefuture@gmail.com
 github_username: e2thefuture
 logo: /logo.png
+
+social:
+  type: Organization
+  links:
+    - "https://discord.gg/bGAzdPUd8M"
