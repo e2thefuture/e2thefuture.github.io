@@ -8,23 +8,12 @@ plugins:
   - jekyll-include-cache
 minimal_mistakes_skin: dark
 
-title: &name "Engineering 2 The Future" # &name is a YAML anchor
-email: e2thefuture@gmail.com
-github_username: e2thefuture
-logo: /logo.png
-
-social:
-  type: Organization
-  links:
-    - "https://discord.gg/bGAzdPUd8M"
-
 atom_feed:
   hide: true
 
+search: true
 lunr:
   search_within_pages: true
-
-search: true
 
 include:
   - _pages
@@ -55,6 +44,17 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+title: &name "Engineering 2 The Future" # &name is a YAML anchor
+email: e2thefuture@gmail.com
+github_username: e2thefuture
+logo: /logo.png
+
+social:
+  type: Organization
+  links:
+    - "https://discord.gg/bGAzdPUd8M"
+
 
 # Site Author
 author:
