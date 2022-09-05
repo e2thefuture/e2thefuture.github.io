@@ -41,13 +41,6 @@ defaults:
       layout: single
       author_profile: true
 
-  - scope:
-      path: "info"
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-
 category_archive:
   type: liquid
   path: /categories/
