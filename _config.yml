@@ -42,8 +42,8 @@ defaults:
       author_profile: true
 
   - scope:
-      path: "_info"
-      type: info
+      path: "info"
+      type: posts
     values:
       layout: single
       author_profile: true
