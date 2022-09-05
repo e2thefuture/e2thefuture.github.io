@@ -18,6 +18,14 @@ social:
   links:
     - "https://discord.gg/bGAzdPUd8M"
 
+atom_feed:
+  hide: true
+
+lunr:
+  search_within_pages: true
+
+search: true
+
 include:
   - _pages
 
