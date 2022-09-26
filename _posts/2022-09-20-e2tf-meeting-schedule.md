@@ -1,0 +1,1 @@
+<iframe src="https://docs.google.com/document/d/1-ap4jaF_37hpOkzoqeN33X913ZNIMhIKvWB5qZZiu74/mobilebasic" seamless="seamless" style="display:block; width:100%; height:100vh;" frameborder="0"></iframe>
