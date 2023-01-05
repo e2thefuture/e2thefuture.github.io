@@ -46,7 +46,7 @@ tag_archive:
   path: /tags/
 
 title: &name "Engineering 2 The Future" # &name is a YAML anchor
-email: e2thefuture@gmail.com
+email: engineering2tf@gmail.com
 github_username: e2thefuture
 logo: /logo.png
 
