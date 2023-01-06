@@ -2,7 +2,7 @@
 title: "About Us"
 excerpt: "Engineering 2 the Future is a student-led club dedicated to providing free classes and seminars..."
 permalink: /about
-gallery:
+board_members:
     - image_path: assets/board/president.png
       alt: "Angela Zheng, President"
     - image_path: assets/board/vice_president.png
@@ -21,10 +21,24 @@ gallery:
       alt: "Tom Yuan, Publicity Chair"
     - image_path: assets/board/webmaster.png
       alt: "Mugilan Nambi, Webmaster"
+engineering_chairs:
+    - image_path: assets/chairs/general.png
+      alt: "Mark Qu, General Engineering"
+    - image_path: assets/chairs/chemical.png
+      alt: "Jerry Song, Chemical Engineering"
+    - image_path: assets/chairs/software.png
+      alt: "Addison Chan, Software Engineering"
+    - image_path: assets/chairs/civil.png
+      alt: "Tony Wang, Civil Engineering"
+    - image_path: assets/chairs/environmental.png
+      alt: "Beth Dagim, Environmental Engineering"
 ---
 
 Engineering 2 the Future is a student-led club dedicated to providing free classes and seminars, allowing youth to learn and explore the world of Engineering.
 Our teachers encourage students to focus on not only the concepts but also applications of Engineering and help them to become creative and skilled members of society.
 
 ## Meet the Board
-{% include gallery caption="Meet the Board" %}
+{% include board_members caption="" %}
+
+## Meet the Engineering Chairs
+{% include engineering_chairs caption="" %}
