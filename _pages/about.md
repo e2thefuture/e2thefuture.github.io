@@ -19,7 +19,7 @@ gallery:
       alt: "Nilay Sabade, Communications Chair"
     - image_path: assets/board/publicity.png
       alt: "Tom Yuan, Publicity Chair"
-    - image_path: assets/board/webmaster​.png
+    - image_path: assets/board/webmaster.png
       alt: "Mugilan Nambi, Webmaster"
 ---
 
